@@ -5,7 +5,7 @@ This is the fastest way to send mails via Newsman secure http API by just chanin
 ```php
 require_once("lib/swift_required.php");
 
-$transport = Swift_Transport_NewsmanApiTransport::newInstance("USER_ID", "API_KEY");
+$transport = Swift_Transport_NewsmanApiTransport::newInstance("ACCOUNT_ID", "API_KEY");
 $swift = Swift_Mailer::newInstance($transport);
 ```
 
