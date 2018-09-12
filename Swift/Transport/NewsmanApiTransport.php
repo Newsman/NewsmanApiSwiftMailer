@@ -16,7 +16,7 @@ class Swift_Transport_NewsmanApiTransport implements Swift_Transport
 	 * @param string     $api_key
 	 * @param string     $api_url
 	 */
-	public function __construct($account_id, $api_key, $api_url = "https://d1.newsmanapp.com/api/1.0/")
+	public function __construct($account_id, $api_key, $api_url = "https://cluster.newsmanapp.com/api/1.0/")
 	{
 		$this->account_id = $account_id;
 		$this->api_key = $api_key;
